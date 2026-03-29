@@ -4,54 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+    <title>Admin Dashboard</title>
 </head>
 <body>
     <div class="container">
         <div class="sidebar">
             <div class="sidebar-header">
+                <img src="Icons/view-dashboard.svg" alt="Home icon.">
                 <h1>Dashboard</h1>
             </div>
             <ul class="sidebar-items-upper">
                 <li class="sidebar-item">
-
-                </li>
-                <li class="sidebar-item">
-                    <img src="" alt="">
+                    <img src="Icons/home-circle-outline.svg" alt="Home icon.">
                     <p>Home</p>
                 </li>
                 <li class="sidebar-item">
-                    <img src="" alt="">
+                    <img src="Icons/card-account-details-outline.svg" alt="Profile icon.">
                     <p>Profile</p>
                 </li>
                 <li class="sidebar-item">
-                    <img src="" alt="">
+                    <img src="Icons/message.svg" alt="Message icon.">
                     <p>Messages</p>
                 </li>
                 <li class="sidebar-item">
-                    <img src="" alt="">
+                    <img src="Icons/history.svg" alt="History icon.">
                     <p>History</p>
                 </li>
                 <li class="sidebar-item">
-                    <img src="" alt="">
+                    <img src="Icons/note-multiple-outline.svg" alt="Task icon.">
                     <p>Tasks</p>
                 </li>
                 <li class="sidebar-item">
-                    <img src="" alt="">
+                    <img src="Icons/account-group.svg" alt="Community icon.">
                     <p>Communities</p>
                 </li>
             </ul>
             <ul class="sidebar-items-lower">
                 <li class="sidebar-item">
-                    <img src="" alt="">
+                    <img src="Icons/cog.svg" alt="Settings icon.">
                     <p>Settings</p>
                 </li>
                 <li class="sidebar-item">
-                    <img src="" alt="">
+                    <img src="Icons/help-box.svg" alt="Support icon.">
                     <p>Support</p>
                 </li>
                 <li class="sidebar-item">
-                    <img src="" alt="">
+                    <img src="Icons/shield-check.svg" alt="Privacy icon.">
                     <p>Privacy</p>
                 </li>
             </ul>
@@ -59,22 +57,24 @@
         <div class="header">
             <div class="header-top">
                 <div class="search-bar">
-                    <img src="" alt="">
+                    <img src="Icons/magnify.svg" alt="Magnifying glass icon.">
                     <form action="post">
                         <input type="text" id="search" placeholder="Search site...">
                     </form>
                 </div>
                 <div class="profile-small">
-                    <img src="" alt="">
-                    <img src="" alt="">
+                    <img src="Icons/bell-ring-outline.svg" alt="Bell icon.">
+                    <img id="profile-small-icon" src="Icons/account-circle.svg" alt="Profile icon.">
                     <h2>John Pork</h2>
                 </div>
             </div>
             <div class="header-bottom">
                 <div class="profile-large">
-                    <img src="" alt="">
-                    <p>Hi there,</p>
-                    <h1>John Pork (@pork)</h1>
+                    <img src="Icons/account-circle.svg" alt="Profile icon.">
+                    <div class="profile-large-text">
+                        <p>Hi there,</p>
+                        <h1>John Pork (@pork)</h1>
+                    </div>
                 </div>
                 <div class="header-buttons">
                     <button class="header-button">New</button>
@@ -93,12 +93,22 @@
                             <h2>Project 1</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         </div>
+                        <div class="card-icons">
+                            <img src="Icons/star-plus-outline.svg" alt="Star icon with a plus symbol.">
+                            <img src="Icons/eye-plus-outline.svg" alt="Eye icon with a plus symbol.">
+                            <img src="Icons/source-branch.svg" alt="Source branch icon.">
+                        </div>
                     </div>
                     <div class="card">
                         <div class="card-color-bar"></div>
                         <div class="card-text">
                             <h2>Project 2</h2>
                             <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                        <div class="card-icons">
+                            <img src="Icons/star-plus-outline.svg" alt="Star icon with a plus symbol.">
+                            <img src="Icons/eye-plus-outline.svg" alt="Eye icon with a plus symbol.">
+                            <img src="Icons/source-branch.svg" alt="Source branch icon.">
                         </div>
                     </div>
                     <div class="card">
@@ -107,12 +117,22 @@
                             <h2>Project 3</h2>
                             <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                         </div>
+                        <div class="card-icons">
+                            <img src="Icons/star-plus-outline.svg" alt="Star icon with a plus symbol.">
+                            <img src="Icons/eye-plus-outline.svg" alt="Eye icon with a plus symbol.">
+                            <img src="Icons/source-branch.svg" alt="Source branch icon.">
+                        </div>
                     </div>
                     <div class="card">
                         <div class="card-color-bar"></div>
                         <div class="card-text">
                             <h2>Project 4</h2>
                             <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                        <div class="card-icons">
+                            <img src="Icons/star-plus-outline.svg" alt="Star icon with a plus symbol.">
+                            <img src="Icons/eye-plus-outline.svg" alt="Eye icon with a plus symbol.">
+                            <img src="Icons/source-branch.svg" alt="Source branch icon.">
                         </div>
                     </div>
                     <div class="card">
@@ -121,12 +141,22 @@
                             <h2>Project 5</h2>
                             <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
                         </div>
+                        <div class="card-icons">
+                            <img src="Icons/star-plus-outline.svg" alt="Star icon with a plus symbol.">
+                            <img src="Icons/eye-plus-outline.svg" alt="Eye icon with a plus symbol.">
+                            <img src="Icons/source-branch.svg" alt="Source branch icon.">
+                        </div>
                     </div>
                     <div class="card">
                         <div class="card-color-bar"></div>
                         <div class="card-text">
                             <h2>Project 6</h2>
                             <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                        </div>
+                        <div class="card-icons">
+                            <img src="Icons/star-plus-outline.svg" alt="Star icon with a plus symbol.">
+                            <img src="Icons/eye-plus-outline.svg" alt="Eye icon with a plus symbol.">
+                            <img src="Icons/source-branch.svg" alt="Source branch icon.">
                         </div>
                     </div>
                 </div>
@@ -158,31 +188,31 @@
                 <h2>Trending</h2>
                 <div class="trending-container-inner">
                     <div class="trending-user">
-                        <img>
+                        <img src="Icons/account-circle.svg" alt="Profile icon.">
                         <div class="trending-user-content">
                             <h3>@tegan</h3>
                             <p>At Action Park</p>
                         </div>
                     </div>
                     <div class="trending-user">
-                        <img>
+                        <img src="Icons/account-circle.svg" alt="Profile icon.">
                         <div class="trending-user-content">
                             <h3>@morgan</h3>
                             <p>Going Places</p>
                         </div>
                     </div>
                     <div class="trending-user">
-                        <img>
+                        <img src="Icons/account-circle.svg" alt="Profile icon.">
                         <div class="trending-user-content">
                             <h3>@kendall</h3>
                             <p>Half Bird</p>
                         </div>
                     </div>
                     <div class="trending-user">
-                        <img>
+                        <img src="Icons/account-circle.svg" alt="Profile icon.">
                         <div class="trending-user-content">
                             <h3>@alex</h3>
-                            <p>No Love No Money</p>
+                            <p>Getting Killed</p>
                         </div>
                     </div>
                 </div>
